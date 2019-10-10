@@ -53,6 +53,6 @@ https://CRAN.R-project.org/package=wmtsa
 \code{\link{signal}, \link{map_wav_signal}}
 }
 \author{
-\strong{Maintainer}: Nelson Silva \email{nelson16silva@gmail.com} (YOUR-ORCID-ID)
+\strong{Maintainer}: Nelson Silva \email{nelson16silva@gmail.com}
 
 }

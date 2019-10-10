@@ -5,7 +5,7 @@ Authors@R:
     person(given = "Nelson",
            family = "Silva",
            role = c("aut", "cre"),
-           email = "nelson16silva@gmail.com"
+           email = "nelson16silva@gmail.com")
 Description: This package provides a wrapper for wavelet-based signal estimation from important 
     packages in R and it constructs a functional for estimating several models by combining 
     parameters that can be used in each of those important packages. Then, the main goal of the 
