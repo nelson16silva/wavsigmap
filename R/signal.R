@@ -1,7 +1,7 @@
 #' Wavelet-Based Signal Estimation
 #'
 #' This function is a generic function that estimates a signal by using
-#'  several methods of wavelet shirinkage and thresholding available in R.
+#'  several methods of wavelet shirinkage and thresholding available in \code{R}.
 #'
 #'
 #' @param x A time series or a numeric vector. If the data is not of length
