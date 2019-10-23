@@ -12,7 +12,7 @@
 #' signal computation, the length is again adjusted for the orginal length.
 #' @param wt NULL, "dwt" or "modwt". If EbayesThresh is computed and
 #' \code{wt = NULL}, \code{dwt} wavelet transform is the default.
-#' @param ... addtional parameters.
+#' @param ... Addtional parameters (see details).
 #'
 #' @details This function is a wrapper to estimate wavelet-based
 #' signal through 3 available packages in R: \code{wmtsa, EbayesThres}
