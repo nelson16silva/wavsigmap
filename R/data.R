@@ -31,3 +31,6 @@
 #' @source \url{https://fred.stlouisfed.org/graph/?g=f1cZ}
 #' @format An object of class \code{ts}. From 1949Qtr1 to 2019Qtr2.
 "GDPC1_GDPPOT"
+
+globalVariables(c("one_side", "both"))
+

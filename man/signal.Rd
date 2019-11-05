@@ -17,7 +17,7 @@ signal computation, the length is again adjusted for the orginal length.}
 \item{wt}{NULL, "dwt" or "modwt". If EbayesThresh is computed and
 \code{wt = NULL}, \code{dwt} wavelet transform is the default.}
 
-\item{...}{addtional parameters.}
+\item{...}{Addtional parameters (see details).}
 }
 \value{
 A time series or a vector representing
@@ -26,7 +26,7 @@ is the same as the orignal data.
 }
 \description{
 This function is a generic function that estimates a signal by using
- several methods of wavelet shirinkage and thresholding available in R.
+ several methods of wavelet shirinkage and thresholding available in \code{R}.
 }
 \details{
 This function is a wrapper to estimate wavelet-based

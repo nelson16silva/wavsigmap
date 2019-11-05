@@ -168,7 +168,7 @@ map_wav_args <- function(list) {
 #'   geom_jitter() +
 #'   facet_wrap(a ~ n.levels)
 #'
-#' # The wavelet best model to replicate GDPC1_GDPPOT
+#' # The best wavelet model to replicate GDPC1_GDPPOT
 #'
 #' gap_wav_best <- GDP_gap_wav[which.min(GDP_gap_wav$rmse), ]
 #'

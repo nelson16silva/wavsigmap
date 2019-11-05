@@ -4,7 +4,7 @@
 \alias{growlen}
 \title{Expand Data Length}
 \usage{
-growlen(x, h, direction = "one_side")
+growlen(x, h, direction = one_side)
 }
 \arguments{
 \item{x}{A time series or a numeric vector.}

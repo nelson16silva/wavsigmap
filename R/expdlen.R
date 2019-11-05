@@ -33,12 +33,12 @@
 #' ts.plot(ts.intersect(GDPC1_GDPPOT, gap_wavelet), col = c(1, 2)); abline(h = 0)
 #' legend(1980, 9, legend = c("GDPC1_GDPPOT", "gap_wavelet"), col = c(1, 2), lty = 1)
 
-growlen <- function(x, h, direction = "one_side") {
+growlen <- function(x, h, direction = one_side) {
   exp_direc <- rlang::enexpr(direction)
   if (!any(as.character(exp_direc) %in% c("one_side", "both"))) {
     stop('Argument direction must be "one_side" or "both" (with or without quotes).')
   }
-  if (exp_direc == "both") {
+  if (as.character(exp_direc) == "both") {
     if (h < 2) stop("h must be greather than 1.")
     hback <- h %/% 2
     hforew <- h - hback
