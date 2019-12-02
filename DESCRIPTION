@@ -10,7 +10,7 @@ Description: This package provides a wrapper for wavelet-based signal estimation
     packages in R. It also provides a functional for estimating several models  
     that can be specified in each of those important packages. Then, the main goal of the 
     package is to facilitate the use of wavelet signal estimation methods from a 
-    single function and build a lot of models to facilitate the choice of the appropriated model.
+    single function and build a lot of models to help the choice of the appropriated model.
 Depends: R (>= 2.10) 
 License: MIT + file LICENSE
 Encoding: UTF-8
