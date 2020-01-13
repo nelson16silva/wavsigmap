@@ -9,7 +9,7 @@
 This package integrates in a single function several methods
 available in R packages for estimating wavelet-based signal.
 Wavelet shirinkage and threshold methods use a lot
-parameters. A functional available in this \code{wavsigmap}
+parameters. Then, a functional available in \code{wavsigmap}
 package combines them and allows one to estimate many models in an
 easy way. Such approach can help users in the task of choosing the
 appropriate wavelet model for a given specific target. An example
@@ -27,7 +27,7 @@ This package uses methods available in three other packages in R:
 \item wavethresh
 }
 
-See help page for function \code{\link{signal}} for more details.
+See help page of the function \code{\link{signal}} for more details.
 }
 
 \references{
