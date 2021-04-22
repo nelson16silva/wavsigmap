@@ -4,7 +4,9 @@
 \name{GDPC1}
 \alias{GDPC1}
 \title{Real Gross Domestic Product}
-\format{An object of class \code{ts}. From 1949Qtr1 to 2019Qtr2.}
+\format{
+An object of class \code{ts}. From 1949Qtr1 to 2019Qtr2.
+}
 \source{
 \url{https://fred.stlouisfed.org/series/GDPC1}
 }

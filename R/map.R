@@ -269,6 +269,6 @@ map_wav_signal <- function(x, args) {
   })
   wsmooth <- wsmooth_all[!sapply(wsmooth_all, is.null)]
   args_wsmooth <- args[!sapply(wsmooth_all, is.null), ]
-  attr(wsmooth, "class") <- "wsmoothmap"
+  #attr(wsmooth, "class") <- "wsmoothmap"
   dplyr::as_tibble(args_wsmooth) %>% dplyr::mutate(!!x_smooth_name := wsmooth)
 }

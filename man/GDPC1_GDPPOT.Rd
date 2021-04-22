@@ -5,7 +5,9 @@
 \alias{GDPC1_GDPPOT}
 \title{100*(Real Gross Domestic Product-Real Potential
 Gross Domestic Product)/Real Potential Gross Domestic Product}
-\format{An object of class \code{ts}. From 1949Qtr1 to 2019Qtr2.}
+\format{
+An object of class \code{ts}. From 1949Qtr1 to 2019Qtr2.
+}
 \source{
 \url{https://fred.stlouisfed.org/graph/?g=f1cZ}
 }
