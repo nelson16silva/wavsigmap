@@ -16,7 +16,7 @@ License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Imports: 
-    EbayesThresh,    wavethresh,    waveslim,    wmtsa,    rlang,    WiSEBoot,    tibble,
+    EbayesThresh,    wavethresh,    waveslim,    wmtsa,    rlang,       tibble,
     dplyr,    purrr,    magrittr,    tidyr,    ggplot2,    forecast,    stats,    methods
-Remotes: cran/wmtsa
+Remotes: cran/wmtsa cran/WiSEBoot
 RoxygenNote: 7.1.1
