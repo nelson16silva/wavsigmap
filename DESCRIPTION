@@ -18,5 +18,5 @@ LazyData: true
 Imports: 
     EbayesThresh,    wavethresh,    waveslim,    wmtsa,    rlang,       tibble, WiSEBoot,
     dplyr,    purrr,    magrittr,    tidyr,    ggplot2,    forecast,    stats,    methods
-Remotes: cran/wmtsa, cran/WiSEBoot
+Remotes: cran/wmtsa, cran/WiSEBoot, cran/ifultools
 RoxygenNote: 7.1.1
